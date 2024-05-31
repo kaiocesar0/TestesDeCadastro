@@ -31,7 +31,7 @@
             <div id="formulario">
                 <h1>login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
-                <form action="https://kaiocesar0.github.io/projeto-social/" method="post" autocomplete="on"> 
+                <form action="#" method="post" autocomplete="on"> 
     
                     <div class="campo">
                         <span class="material-symbols-outlined">person</span>
@@ -48,7 +48,7 @@
                     </div>
                     <div class="campo">
                         <span class="material-symbols-outlined">phone</span>
-                        <input placeholder="Seu Telefone" type="tel" name="phone" id="iphone" autocomplete="tel" required minlength="8" max="20">
+                        <input placeholder="Seu Telefone" type="tel" name="phone" id="iphone" autocomplete="tel">
                         <label for="iphone">
                         </label>
                     </div>
@@ -61,7 +61,8 @@
           </section>
     </main>
     
-    <script>
+    <!--  sem mapeação
+        <script>
         (function (a) {
           window.BulldeskFQ=window.BulldeskFQ||[];window.BulldeskFQ.push(a);var script=document.createElement("script");script.src="https://homolog.salesflowcrm.com.br/forms.js",document.addEventListener?document.addEventListener("DOMContentLoaded",function(){document.body.appendChild(script)}):window.attachEvent("onload",function(){document.body.appendChild(script)});}(function(){
                 new BulldeskFormIntegration({
@@ -72,9 +73,23 @@
                       identifier: 'LP Teste de Cadastro'
             });
             }));
-      </script>
-      
-      
+      </script>--> 
+    
+      <script src="https://homolog.salesflowcrm.com.br/forms.js"></script>
+    <script>
+      new BulldeskFormIntegration({
+        token: 'd3bdacdbe5bb35b927edbfeaece38703',
+        identifier: 'LP Teste de Cadastro',
+        domain: 'https://homolog.salesflowcrm.com.br/api',
+        map: {
+          'name': 'name',
+          'email': 'email',
+          'phone': 'teste_01'
+        }
+      });
+    </script>
+
+    
       
 </body>
 </html>
