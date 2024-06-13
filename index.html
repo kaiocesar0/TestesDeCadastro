@@ -47,7 +47,27 @@
                         <label for="iemail">
                         </label>
                     </div>
-                 <!-- 
+                    <span><p>Uma das Alternativas</p></span>
+                    <div class="campo"></div>
+                    <input type="radio" name="umadasalternativas" value="A"/> Sim<br />
+                    <input type="radio" name="umadasalternativas" value="B"/> Não<br />
+                    <input type="radio" name="umadasalternativas" value="C"/> Talvez<br />
+                    <input type="radio" name="umadasalternativas" value="D"/> Quem sabe                  
+                    </div>       
+                    
+                    <span><p>Checkbox/p></span>
+                    <div class="campo"></div>
+                    <input type="checkbox" name="checkbox" value="html"/> Sim<br />               
+                    </div>     
+
+                    <span><p>Marcar Multiplas Opções</p></span>
+                    <div class="campo"></div>
+                    <input type="radio" name="marcarmultiplasopcoes" value="1"/> 1<br />
+                    <input type="radio" name="marcarmultiplasopcoes" value="2"/> 2<br />
+                    <input type="radio" name="marcarmultiplasopcoes" value="3"/> 3<br />
+                    <input type="radio" name="marcarmultiplasopcoes" value="4"/> 4                
+                    </div>  
+  <!-- 
 
    <div class="campo">
                         <span class="material-symbols-outlined">phone</span>
@@ -91,12 +111,15 @@
         map: {
           'name': 'name',
           'email': 'email',
-          'phone': 'phone'
+          'phone': 'phone',
+          'umadasalternativas': 'umadasalternativas',
+          'checkbox': 'checkbox',
+          'marcarmultiplasopcoes': 'marcarmultiplasopcoes'
         }
       });
     </script>
 
     
-      
+
 </body>
 </html>
