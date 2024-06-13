@@ -139,3 +139,7 @@ form > a.botao:hover{
 form > a.botao > span {
     font-size: 0.9em;;
 }
+
+div.opcoes {
+    margin-left: 10px;
+}
