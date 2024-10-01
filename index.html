@@ -1,125 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projeto Login</title>
-  <link rel="stylesheet" href="estilos/style.css">
-  <link rel="stylesheet" href="media-query.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Login</title>
+    <link rel="stylesheet" href="estilos/style.css" />
+    <link rel="stylesheet" href="media-query.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
 
-  <script>
-    window.BulldeskSettings = {
-          banner: true,
-      token: '2527e38c4654cebc1792d0521d50ec55'
-    };
-  
+    <script>
+      window.BulldeskSettings = {
+            banner: true,
+        token: '78wsJqE1OB'
+      };
+    
+      
+      
+      !function(a,b,c){if('object'!=typeof c){var d=function(){d.c(arguments)};d.q=[],d.c=function(a){d.q.push(a)},a.Bulldesk=d;var e=b.createElement('script');e.type='text/javascript',e.async=!0,e.id='bulldesk-analytics',e.src='https://homolog.salesflowcrm.com.br/salesflow.js';var f=b.getElementsByTagName('script')[0];f.parentNode.insertBefore(e,f)}}(window,document,window.Bulldesk);
+    </script>
     
     
-    !function(a,b,c){if('object'!=typeof c){var d=function(){d.c(arguments)};d.q=[],d.c=function(a){d.q.push(a)},a.Bulldesk=d;var e=b.createElement('script');e.type='text/javascript',e.async=!0,e.id='bulldesk-analytics',e.src='https://static.salesflowcrm.com.br/salesflow.js';var f=b.getElementsByTagName('script')[0];f.parentNode.insertBefore(e,f)}}(window,document,window.Bulldesk);
-  </script>
-  
-  
-
-</head>
-<body>
+        <script>
+          window.difyChatbotConfig = {
+           token: 'GJS4X2k77kfO3Ibw',
+           baseUrl: 'http://devia.fivecloud.com.br'
+          }
+         </script>
+         <script
+          src="http://devia.fivecloud.com.br/embed.min.js"
+          id="GJS4X2k77kfO3Ibw"
+          defer>
+         </script>
+    <style>
+      #dify-chatbot-bubble-button {
+        background-color: #1C64F2 !important;
+      }
+    </style>
+  </head>
+  <body>
     <main>
-        <section id="login">
-            <div id="imagem">
-                <!--Aqui vai a imagem nas CSS-->
+      <section id="login">
+        <div id="imagem">
+          <!--Aqui vai a imagem nas CSS-->
+        </div>
+        <div id="formulario">
+          <h1>login</h1>
+          <p>
+            Seja bem-vindo(a) novamente. Faça login para acessar sua conta e
+            poder fazer as configurações no seu ambiente
+          </p>
+          <form action="#" method="post" autocomplete="on">
+            <div class="campo">
+              <span class="material-symbols-outlined">person</span>
+              <input
+                placeholder="Seu nome"
+                type="text"
+                name="name"
+                id="iname"
+                autocomplete="name"
+              />
+              <label for="iname"> </label>
             </div>
-            <div id="formulario">
-                <h1>login</h1>
-                <form action="#" method="post" autocomplete="on"> 
-    
-                    <div class="campo">
-                        <span class="material-symbols-outlined">person</span>
-                        <input placeholder="Seu nome" type="text" name="name" id="iname" autocomplete="name">
-                        <label for="iname">
-                        </label>
-                    </div>
 
-                    <div class="campo">
-                        <span class="material-symbols-outlined">person</span>
-                        <input placeholder="Seu e-mail" type="email" name="email" id="iemail" autocomplete="email">
-                        <label for="iemail">
-                        </label>
-                    </div>
-
-                    <span><p>Uma das Alternativas</p></span>
-                    <div class="opcoes">
-                    <input type="radio" name="umadasalternativas" value="A"/> A<br />
-                    <input type="radio" name="umadasalternativas" value="B"/> B<br />
-                    <input type="radio" name="umadasalternativas" value="C"/> C<br />
-                    <input type="radio" name="umadasalternativas" value="D"/> D                
-                    </div>       
-                    
-                    <span><p>Checkbox</p></span>
-                    <div class="opcoes">
-                    <input type="checkbox" name="checkbox" value="html"/> Sim<br />               
-                    </div>     
-
-                    <span><p>Marcar Multiplas Opções</p></span>
-                    <div class="opcoes">
-                    <input type="checkbox" name="marcarmultiplasopcoes[]" value="1"/> 1<br />
-                    <input type="checkbox" name="marcarmultiplasopcoes[]" value="2"/> 2<br />
-                    <input type="checkbox" name="marcarmultiplasopcoes[]" value="3"/> 3<br />
-                    <input type="checkbox" name="marcarmultiplasopcoes[]" value="4"/> 4                
-                    </div>
-  <!-- 
-
-   <div class="campo">
-                        <span class="material-symbols-outlined">phone</span>
-                        <input placeholder="Seu Telefone" type="tel" name="phone" id="iphone" autocomplete="tel">
-                        <label for="iphone">
-                        </label>
-                    </div>
-                     -->
-                    <div>
-                    <input type="submit" value="Entrar"><div>
-                   
-                    </div></div>
-                </form>
+            <div class="campo">
+              <span class="material-symbols-outlined">person</span>
+              <input
+                placeholder="Seu e-mail"
+                type="email"
+                name="email"
+                id="email"
+                autocomplete="email"
+              />
+              <label for="email"> </label>
             </div>
-          </section>
+
+            <div class="campo">
+              <span class="material-symbols-outlined">person</span>
+              <input
+                placeholder="empresa"
+                type="text"
+                name="company"
+                id="iempresa"
+              />
+              <label for="iempresa"> </label>
+            </div>
+
+
+            <button type="submit" value="Entrar">Entrar</button>
+            <a href="index.html" class="botao"
+              >Esqueci a senha
+              <span class="material-symbols-outlined">mail</span></a
+            >
+          </form>
+        </div>
+      </section>
     </main>
+<!--   <script>
+      (function (a) {
+        window.BulldeskFQ=window.BulldeskFQ||[];window.BulldeskFQ.push(a);var script=document.createElement("script");script.src="https://release.salesflowcrm.com.br/forms.js",document.addEventListener?document.addEventListener("DOMContentLoaded",function(){document.body.appendChild(script)}):window.attachEvent("onload",function(){document.body.appendChild(script)});}(function(){
+              new BulldeskFormIntegration({
+            token: '489daa22af75868ef001f5c58b5baae0',
+            disable: true,
+            validate: true,
+                            domain: 'https://release.salesflowcrm.com.br/api',
+                    identifier: 'Identificador da Conversão'
+          });
+          }));
+    </script>  -->
+ 
     
-     <!--  
     <script>
       (function (a) {
-        window.BulldeskFQ=window.BulldeskFQ||[];window.BulldeskFQ.push(a);var script=document.createElement("script");script.src="https://homolog.salesflowcrm.com.br/forms.js",document.addEventListener?document.addEventListener("DOMContentLoaded",function(){document.body.appendChild(script)}):window.attachEvent("onload",function(){document.body.appendChild(script)});}(function(){
-              new BulldeskFormIntegration({
-            token: 'd3bdacdbe5bb35b927edbfeaece38703',
+        window.BulldeskFQ=window.BulldeskFQ||[];window.BulldeskFQ.push(a);var script=document.createElement("script");script.src="https://homolog.salesflowcrm.com.br/forms.js",document.addEventListener?document.addEventListener("DOMContentLoaded",function(){document.body.appendChild(script)}):window.attachEvent("onload",function(){document.body.appendChild(script)});}(function(){  
+          new BulldeskFormIntegration({
+            token: '78wsJqE1OB',
             disable: true,
             validate: true,
                             domain: 'https://homolog.salesflowcrm.com.br/api',
-                    identifier: 'Teste de cadastro'
+                    identifier: 'Teste Login'
           });
           }));
     </script>
--->     
     
-
-     <!--  Com mapeação--> 
-      <script src="https://homolog.salesflowcrm.com.br/forms.js"></script>
-    <script>
-      new BulldeskFormIntegration({
-        token: 'd3bdacdbe5bb35b927edbfeaece38703',
-        identifier: 'LP Teste de Cadastro',
-        domain: 'https://homolog.salesflowcrm.com.br/api',
-        map: {
-          'name': 'name',
-          'email': 'email',
-          'phone': 'phone',
-          'umadasalternativas[]': 'umadasalternativas[]',
-          'checkbox': 'checkbox',
-          'marcarmultiplasopcoes': 'marcarmultiplasopcoes'
-        }
-      });
-    </script>
-
-    
-
-</body>
+  </body>
 </html>
